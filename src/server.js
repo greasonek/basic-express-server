@@ -32,7 +32,6 @@ server.get('/person', validator, (req, res) => {
     //return 
   } 
 );
-
 //req.param a key value pair where the key is defined by our route
 server.get('/hello/:person', (req, res) => {
   //error handling here
